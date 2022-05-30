@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "start": "node server/index.js",
-        "prettier": "prettier -w ."
+        "prettier": "prettier -w .",
+        "start": "./node_modules/.bin/netlify-lambda serve src",
+        "build": "./node_modules/.bin/netlify-lambda build src"
     },
     "repository": {
         "type": "git",
