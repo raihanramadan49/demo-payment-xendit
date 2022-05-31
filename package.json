@@ -8,16 +8,8 @@
         "prettier": "prettier -w .",
         "build": "npm install"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/xendit/checkout-demo.git"
-    },
     "author": "",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/xendit/checkout-demo/issues"
-    },
-    "homepage": "https://github.com/xendit/checkout-demo#readme",
     "husky": {
         "hooks": {
             "pre-commit": "pretty-quick --staged"
