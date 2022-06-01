@@ -8,8 +8,6 @@
         "prettier": "prettier -w .",
         "build": "npm install"
     },
-    "author": "",
-    "license": "MIT",
     "husky": {
         "hooks": {
             "pre-commit": "pretty-quick --staged"

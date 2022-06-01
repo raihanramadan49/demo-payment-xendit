@@ -106,7 +106,7 @@
             `<div class="order-item__price">${subtotalCurrency} ${subtotalAmount}</div>` +
             '</div>' +
             '<div class="cart-subtotal__order-item">' +
-            '<div class="order-item__label">Shipping</div>' +
+            '<div class="order-item__label">Biaya Pengiriman</div>' +
             `<div class="order-item__price">${shippingCurrency} ${shippingPrice}</div>` +
             '</div>';
 

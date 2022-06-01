@@ -15,7 +15,7 @@
 
 /* Header */
 .header--blue {
-    background-color: #4573ff;
+    background-color: #2fb02f;
     border-bottom: none;
 }
 
@@ -93,12 +93,12 @@
 }
 
 .panel__link {
-    padding-left: 25px;
+    padding-left: 0px;
     font-size: 16px;
     font-weight: 600;
-    color: #4573ff;
+    color: #2fb02f;
     text-decoration: none;
-    background: url(/images/try-checkout/icon-return.svg) left center no-repeat;
+    /* background: url(/images/try-checkout/icon-return.svg) left center no-repeat; */
 }
 
 /* Footer */

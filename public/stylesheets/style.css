@@ -33,7 +33,7 @@
 .button {
     padding: 10px;
     min-width: 180px;
-    background-color: #4573ff;
+    background-color: #2fb02f;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -88,11 +88,12 @@
 }
 
 .header__link-site {
-    padding-left: 32px;
+    padding-left: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #000000;
-    background: url(/images/store/logo-xendit.svg) left center no-repeat;
+    /* background: url(/images/store/logo-xendit.svg) left center no-repeat; */
 }
 
 .header__link-site:hover {

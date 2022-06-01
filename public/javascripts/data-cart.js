@@ -10,25 +10,35 @@ const cartData = [
         cart: {
             order_items: [
                 {
-                    name: 'Honey Badger Plushie',
+                    name: 'Kaos UGM v2',
                     quantity: 1,
-                    price: 200000,
-                    formatted_price: '200.000',
+                    price: 90000,
+                    formatted_price: '90.000',
+                    total_amount: 90000,
+                    formatted_total_amount: '90.000',
+                    currency: 'IDR',
+                    image: '/images/products/kaosugm.png'
+                },
+                {
+                    name: 'Kaos Algoritma TI',
+                    quantity: 2,
+                    price: 100000,
+                    formatted_price: '100.000',
                     total_amount: 200000,
                     formatted_total_amount: '200.000',
                     currency: 'IDR',
-                    image: '/images/products/plushie.jpg'
+                    image: '/images/products/kaosalgo.png'
                 },
                 {
-                    name: 'Xendit Mug',
+                    name: 'Gantungan TETI',
                     quantity: 3,
-                    price: 100000,
-                    formatted_price: '100.000',
-                    total_amount: 300000,
-                    formatted_total_amount: '300.000',
+                    price: 9000,
+                    formatted_price: '9.000',
+                    total_amount: 27000,
+                    formatted_total_amount: '27.000',
                     currency: 'IDR',
-                    image: '/images/products/mug.jpg'
-                }
+                    image: '/images/products/ganci.png'
+                },
             ],
             shipping: {
                 price: 5000,
@@ -36,13 +46,13 @@ const cartData = [
                 currency: 'IDR'
             },
             subtotal: {
-                amount: 500000,
-                formatted_amount: '500.000',
+                amount: 317000,
+                formatted_amount: '317.000',
                 currency: 'IDR'
             },
             total: {
-                amount: 505000,
-                formatted_amount: '505.000',
+                amount: 322000,
+                formatted_amount: '322.000',
                 currency: 'IDR'
             }
         }

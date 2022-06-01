@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Xendit Demo Store</title>
+        <title>Bayar Payment Gateway</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -23,7 +23,7 @@
             <div class="header">
                 <div class="wrapper header__wrapper">
                     <div class="header__site">
-                        <a class="header__link-site" href="/">Xendit Demo</a>
+                        <a class="header__link-site" href="/">BAYAR DIGITAL</a>
                     </div>
                     <div class="header__navigation">
                         <input
@@ -36,24 +36,6 @@
                             class="header__button-menu"
                             ><span class="nav-icon"></span
                         ></label>
-                        <ul class="header__links">
-                            <li>
-                                <a
-                                    class="header__link-github"
-                                    href="https://github.com/xendit/checkout-demo"
-                                    target="_blank"
-                                    >View Sample Code</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="header__link-docs"
-                                    href="https://docs.xendit.co/xeninvoice/"
-                                    target="_blank"
-                                    >View Xendit Docs</a
-                                >
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -63,15 +45,12 @@
                     <div class="configure">
                         <div class="panel-configure">
                             <h2 class="panel-configure__title">
-                                Welcome to<br />Xendit Demo Store
+                                Selamat Datang di <br />Bayar Payment Gateway
                             </h2>
                             <div class="panel-configure__message">
-                                Xendit is the leading payment gateway for
-                                Indonesia and Southeast Asia.
-                            </div>
-                            <div class="panel-configure__tip">
-                                Select country and integration to view how we
-                                can help your business.
+                                Adalah layanan penyedia jasa pembayaran yang terintegrasi dengan bank
+                                maupun dompet digital untuk mendukung beberapa opsi Pembayaran
+                                atau biasa disebut dengan gerbang pembayaran (payment gateway).
                             </div>
                         </div>
                         <form
@@ -80,7 +59,7 @@
                             autocomplete="off"
                         >
                             <label class="form-configure__label"
-                                >Invoice Integration</label
+                                >Metode</label
                             >
                             <select
                                 id="select-integration"
@@ -90,25 +69,22 @@
                                 <option>Redirect Checkout</option>
                             </select>
                             <label class="form-configure__label"
-                                >Country of Operation</label
+                                >Negara</label
                             >
                             <select
                                 id="select-country"
                                 class="form-configure__select"
                             >
                                 <option>Indonesia</option>
-                                <option>Philippines</option>
+                                <!-- <option>Philippines</option> -->
                             </select>
                             <button
                                 id="button-start-demo"
                                 class="button form-configure__button-demo"
                                 type="submit"
                             >
-                                <span>Start Demo</span>
+                                <span>Mulai Pembayaran</span>
                             </button>
-                            <div class="form-configure__note">
-                                Payments are simulated, no real money will move!
-                            </div>
                         </form>
                     </div>
                     <!-- Cart -->
@@ -129,7 +105,7 @@
                             <div class="cart-summary__total"></div>
                         </label>
                         <div class="cart-summary">
-                            <h2 class="cart-summary__title">Order Summary</h2>
+                            <h2 class="cart-summary__title">Pesanan Anda</h2>
                             <div id="order-items" class="order-items"></div>
                             <div id="subtotal" class="cart-subtotal"></div>
                             <div id="total" class="cart-total"></div>
