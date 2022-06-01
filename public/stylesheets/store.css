@@ -133,7 +133,7 @@
 
 .order-item__image {
     width: 70px;
-    height: 70px;
+    height: 100px;
     border: 1px solid #ececec;
 }
 
@@ -142,11 +142,35 @@
 }
 
 .order-item__description-name {
-    font-weight: 600;
+    font-weight: 1000;
 }
 
 .order-item__description-count {
+    margin-top: 30px;
+}
+
+.order-item__description-date-desc {
     margin-top: 8px;
+    font-weight: 600;
+}
+
+.order-item__description-date {
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.order-item__description-time {
+    margin-top: 8px;
+}
+
+.order-item__description-bus {
+    margin-top: 8px;
+}
+
+.order-item__description-trip {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 11px;
 }
 
 .order-item__price {

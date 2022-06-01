@@ -10,49 +10,36 @@ const cartData = [
         cart: {
             order_items: [
                 {
-                    name: 'Kaos UGM v2',
+                    name: 'Tiket Bus',
+                    datedep: '4 Juni 2022',
+                    datearr: '4 Juni 2022',
+                    timedep: '05.00 PM',
+                    timearr: '08.00 PM',
+                    bus: 'Bus A',
+                    from: 'Yogyakarta',
+                    destination: 'Semarang',
                     quantity: 1,
-                    price: 90000,
-                    formatted_price: '90.000',
-                    total_amount: 90000,
-                    formatted_total_amount: '90.000',
+                    price: 50000,
+                    formatted_price: '50.000',
+                    total_amount: 50000,
+                    formatted_total_amount: '50.000',
                     currency: 'IDR',
-                    image: '/images/products/kaosugm.png'
-                },
-                {
-                    name: 'Kaos Algoritma TI',
-                    quantity: 2,
-                    price: 100000,
-                    formatted_price: '100.000',
-                    total_amount: 200000,
-                    formatted_total_amount: '200.000',
-                    currency: 'IDR',
-                    image: '/images/products/kaosalgo.png'
-                },
-                {
-                    name: 'Gantungan TETI',
-                    quantity: 3,
-                    price: 9000,
-                    formatted_price: '9.000',
-                    total_amount: 27000,
-                    formatted_total_amount: '27.000',
-                    currency: 'IDR',
-                    image: '/images/products/ganci.png'
+                    image: '/images/products/yogyakarta.jpg'
                 },
             ],
             shipping: {
-                price: 5000,
-                formatted_price: '5.000',
+                price: 0,
+                formatted_price: '0',
                 currency: 'IDR'
             },
             subtotal: {
-                amount: 317000,
-                formatted_amount: '317.000',
+                amount: 50000,
+                formatted_amount: '50.000',
                 currency: 'IDR'
             },
             total: {
-                amount: 322000,
-                formatted_amount: '322.000',
+                amount: 50000,
+                formatted_amount: '50.000',
                 currency: 'IDR'
             }
         }

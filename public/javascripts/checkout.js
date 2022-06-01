@@ -71,6 +71,13 @@
                 const {
                     image,
                     name,
+                    datedep,
+                    datearr,
+                    timedep,
+                    timearr,
+                    bus,
+                    from,
+                    destination,
                     quantity,
                     currency,
                     formatted_price: formattedPrice,
@@ -78,9 +85,15 @@
                 } = orderItem;
                 return (
                     '<div class="cart-summary__order-item">' +
-                    `<img class="order-item__image" src="${image}" />` +
+                    // `<img class="order-item__image" src="${image}" />` +
                     '<div class="order-item__description">' +
                     `<div class="order-item__description-name">${name}</div>` +
+                    `<div class="order-item__description-trip">● &nbsp ${from} → ${destination}</div>` +
+                    `<div class="order-item__description-bus">${bus}</div>` +
+                    `<div class="order-item__description-date-desc">Keberangkatan</div>` +
+                    `<div class="order-item__description-date">${datedep} - ${timedep}</div>` +
+                    `<div class="order-item__description-date-desc">Kedatangan</div>` +
+                    `<div class="order-item__description-date">${datearr} - ${timearr}</div>` +
                     `<div class="order-item__description-count">${quantity} x ${currency} ${formattedPrice}</div>` +
                     '</div>' +
                     `<div class="order-item__price">${currency} ${formattedTotalAmount}</div>` +
@@ -106,7 +119,7 @@
             `<div class="order-item__price">${subtotalCurrency} ${subtotalAmount}</div>` +
             '</div>' +
             '<div class="cart-subtotal__order-item">' +
-            '<div class="order-item__label">Biaya Pengiriman</div>' +
+            '<div class="order-item__label">Biaya Layanan</div>' +
             `<div class="order-item__price">${shippingCurrency} ${shippingPrice}</div>` +
             '</div>';
 
